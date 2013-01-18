@@ -53,4 +53,16 @@ nmap <silent> <C-l> :wincmd l<CR>
 " KEYBINDINGS
 "
 let mapleader=","
+nmap <silent> <Leader>rs :so ~/.vimrc<CR>
+nmap <silent> <Leader>es :e ~/.vimrc<CR>
 
+nmap <leader>t :CtrlP<CR>
+nmap <leader>b :CtrlPBuffer<CR>
+map  <F1> <Esc>
+imap <F1> <Esc>
+
+nmap <silent> <Leader>gs :Gstatus<CR>
+nmap <silent> <Leader>gcc :Gcommit<CR>
+
+
+colorscheme molokai
