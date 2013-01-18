@@ -10,3 +10,6 @@
 [submodule "bundle/vim-sensible"]
 	path = bundle/vim-sensible
 	url = http://github.com/tpope/vim-sensible
+[submodule "bundle/vim-rails"]
+	path = bundle/vim-rails
+	url = http://github.com/tpope/vim-rails
