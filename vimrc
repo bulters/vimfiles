@@ -64,5 +64,6 @@ imap <F1> <Esc>
 nmap <silent> <Leader>gs :Gstatus<CR>
 nmap <silent> <Leader>gcc :Gcommit<CR>
 
+nmap <silent> <Leader>qq :q<CR>
 
 colorscheme molokai
