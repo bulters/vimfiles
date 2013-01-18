@@ -2,7 +2,7 @@ vimfiles
 ========
 
 installation
-============
+------------
 
     git clone https://github.com/bulters/vimfiles.git .vim
 
