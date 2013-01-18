@@ -49,7 +49,18 @@ nmap <silent> <C-j> :wincmd j<CR>
 nmap <silent> <C-k> :wincmd k<CR>
 nmap <silent> <C-l> :wincmd l<CR>
 
+if has("gui_running")
+  set antialias
+  set guifont=Inconsolata:h10
+  set guioptions-=T
+  set guioptions-=m
+  set guioptions-=l
+  set guioptions-=L
+  set guioptions-=r
+  set guioptions-=R
+end
 
+"
 " KEYBINDINGS
 "
 let mapleader=","
@@ -64,6 +75,9 @@ imap <F1> <Esc>
 nmap <silent> <Leader>gs :Gstatus<CR>
 nmap <silent> <Leader>gcc :Gcommit<CR>
 
-nmap <silent> <Leader>qq :q<CR>
+nmap <F2> :NERDTreeToggle<CR>
+nmap <F2> :NERDTreeToggle<CR>
+
+map <Leader>, :b#<CR>
 
 colorscheme molokai
