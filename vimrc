@@ -51,7 +51,7 @@ nmap <silent> <C-l> :wincmd l<CR>
 
 if has("gui_running")
   set antialias
-  set guifont=Inconsolata:h10
+  set guifont=Menlo:h11
   set guioptions-=T
   set guioptions-=m
   set guioptions-=l
@@ -81,3 +81,4 @@ nmap <F2> :NERDTreeToggle<CR>
 map <Leader>, :b#<CR>
 
 colorscheme molokai
+
