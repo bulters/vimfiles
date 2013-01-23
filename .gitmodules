@@ -22,3 +22,6 @@
 [submodule "mirah-vim"]
 	path = mirah-vim
 	url = https://github.com/tanob/mirah-vim.git
+[submodule "bundle/ack.vim"]
+	path = bundle/ack.vim
+	url = https://github.com/mileszs/ack.vim.git
