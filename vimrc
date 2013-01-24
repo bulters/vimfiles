@@ -79,6 +79,7 @@ nmap <F2> :NERDTreeToggle<CR>
 nmap <F2> :NERDTreeToggle<CR>
 
 map <Leader>, :b#<CR>
+map <Leader>a :Ack<space>
 
 colorscheme molokai
 
