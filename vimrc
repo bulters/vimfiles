@@ -39,6 +39,8 @@ set wildmenu
 " kill trailing whitespaces when exiting file
 autocmd BufWritePre * :%s/\s\+$//e
 
+" Save undo files in a sane place; i.e. not in working dirs
+set undodir=$TEMP
 "
 " WINDOW SPLITTING
 "
@@ -69,6 +71,7 @@ nmap <silent> <Leader>es :e ~/.vimrc<CR>
 
 nmap <leader>t :CtrlP<CR>
 nmap <leader>b :CtrlPBuffer<CR>
+nmap <leader>f :CtrlPTag<CR>
 map  <F1> <Esc>
 imap <F1> <Esc>
 
