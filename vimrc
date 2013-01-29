@@ -57,7 +57,7 @@ nmap <silent> <C-l> :wincmd l<CR>
 
 if has("gui_running")
   set antialias
-  set guifont=Inconsolata\ for\ Powerline:h11
+  set guifont=Envy\ Code\ R:h11
   set guioptions-=T
   set guioptions-=m
   set guioptions-=l
@@ -88,5 +88,6 @@ nmap <F2> :NERDTreeToggle<CR>
 map <Leader>, :b#<CR>
 map <Leader>a :Ack<space>
 
-colorscheme molokai
+"colorscheme molokai
+colorscheme solarized
 
