@@ -41,6 +41,10 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 " Save undo files in a sane place; i.e. not in working dirs
 set undodir=$TEMP
+
+" use relative line numbering
+set relativenumber
+
 "
 " WINDOW SPLITTING
 "
@@ -53,7 +57,7 @@ nmap <silent> <C-l> :wincmd l<CR>
 
 if has("gui_running")
   set antialias
-  set guifont=Menlo:h11
+  set guifont=Inconsolata\ for\ Powerline:h11
   set guioptions-=T
   set guioptions-=m
   set guioptions-=l
