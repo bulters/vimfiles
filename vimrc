@@ -42,9 +42,6 @@ autocmd BufWritePre * :%s/\s\+$//e
 " Save undo files in a sane place; i.e. not in working dirs
 set undodir=$TEMP
 
-" use relative line numbering
-set relativenumber
-
 "
 " WINDOW SPLITTING
 "
@@ -88,6 +85,8 @@ nmap <F2> :NERDTreeToggle<CR>
 map <Leader>, :b#<CR>
 map <Leader>a :Ack<space>
 
-"colorscheme molokai
-colorscheme solarized
+colorscheme molokai
 
+" Learn VimScript the hard way
+imap <c-u> <esc>viwUi
+nmap <c-u> viwU
