@@ -83,10 +83,13 @@ nmap <F2> :NERDTreeToggle<CR>
 nmap <F2> :NERDTreeToggle<CR>
 
 map <Leader>, :b#<CR>
-map <Leader>a :Ack<space>
+map <Leader>a :Ag<space>
 
 colorscheme molokai
 
 " Learn VimScript the hard way
 imap <c-u> <esc>viwUi
 nmap <c-u> viwU
+
+nnoremap j gj
+nnoremap k gk
