@@ -84,6 +84,7 @@ nmap <F2> :NERDTreeToggle<CR>
 
 map <Leader>, :b#<CR>
 map <Leader>a :Ag<space>
+map <Leader>cc :q<CR>
 
 colorscheme molokai
 
@@ -93,3 +94,7 @@ nmap <c-u> viwU
 
 nnoremap j gj
 nnoremap k gk
+
+" Vim Dispatch
+nmap <Leader>rr :Dispatch<CR>
+
